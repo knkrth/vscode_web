@@ -3,7 +3,7 @@ FROM ubuntu:20.04
 # Close the interactive
 ENV DEBIAN_FRONTEND noninteractive
 
-EXPOSE 8080/tcp
+EXPOSE 8000/tcp
 ARG GID=1000
 ARG UID=1000
 
