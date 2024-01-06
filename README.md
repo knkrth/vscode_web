@@ -13,6 +13,10 @@ docker build -t "vscode_web_app" .
 ```
 
 ## Start the container
+Start the container using,
+```
+docker run --name vscode_web_app -d -p 8080:8080 vscode_web_app
+```
 
 VSCode needs a directory on where to write settings and store installed extensions. Map this to a local volume using the -v flag, e.g. -v ~/vscode_web_settings:/home/vscode_user. 
 
