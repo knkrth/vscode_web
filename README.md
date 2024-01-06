@@ -7,7 +7,7 @@ This base image contains only git and VSCode. Feel free to derive from this imag
 
 ## Build the image
 
-If you want to build the docker image from scratch, Default `vscode_user` password is `app` change it [here]([url](https://github.com/knkrth/vscode_web/blob/main/Dockerfile#L25)) & use 
+If you want to build the docker image from scratch, Default `vscode_user` password is `app` change it [here](https://github.com/knkrth/vscode_web/blob/main/Dockerfile#L25) & use 
 ```
 docker build -t "vscode_web_app" .
 ```
