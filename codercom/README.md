@@ -12,6 +12,7 @@ sudo apt-get install -y nodejs
 ```
 
 ```
+pip install --break-system-packages --user --upgrade pip setuptools wheel
 pip install --break-system-packages --user kotak-neo-api/
 pip install --break-system-packages --user pyngrok nest_asyncio fastapi uvicorn loguru
 ```
